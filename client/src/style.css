@@ -1,17 +1,19 @@
 .App {
-  height: 100%;
-  padding: 10px 200px;
+  
   display: flex;
-   align-items: center;
+  align-items: center;
   justify-content: center;
   text-align: center;
   background-color: rgb(218, 218, 218);
   
 }
 
+div {
+  height: 100%;
+}
 h1 {
   margin-bottom: 55px;
-  margin-top: 50px;
+  
 }
 
 .books {

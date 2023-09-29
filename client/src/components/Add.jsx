@@ -11,7 +11,7 @@ const Add = () => {
 
    
     
-    
+    const [dataFetched, setDataFetched] = useState(false);
       const [title, setTitle] = useState('');
       const [book, setBook] = useState({
         title: '',
@@ -62,6 +62,7 @@ const Add = () => {
     
               // Update the book state with the retrieved information
               setBook(newBook);
+              setDataFetched(true)
             } else {
               // Handle the case when no results are found
               setBook({
@@ -71,6 +72,7 @@ const Add = () => {
                 review: '',
                 date: "",
               });
+              setDataFetched(true)
             }
           })
           .catch((error) => {
@@ -104,9 +106,14 @@ const Add = () => {
             </label>
             <button type="submit">Search</button>
           </form>
-          <h2>Title: {book.title}</h2>
-          <h3>Author: {book.author}</h3>
-          <img src={book.cover} alt="Book Cover" />
+  {dataFetched && (
+  <div>
+    <h2>Title: {book.title}</h2>
+    <h3>Author: {book.author}</h3>
+    <img src={book.cover} alt="Book Cover" />
+  </div>
+)}
+          
           <label>
           Enter a Date:
           <input
@@ -124,7 +131,7 @@ const Add = () => {
             onChange={handleReviewChange}
           />
         </label>
-          <button onClick={handleServerSubmit}>Submit to Server</button>
+          <button onClick={handleServerSubmit}>Save</button>
 
         </div>
       );
