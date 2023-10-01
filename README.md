@@ -1,4 +1,4 @@
-# BookSaver
+# BOOK LOG
 this is a simple CRUD web application that lets you search, save and review the books they've read. 
 The application uses the Open Libary API to search for book titles then saves all of the data to a mySQL DB. 
 
