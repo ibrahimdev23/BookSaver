@@ -2,7 +2,7 @@
 this is a simple CRUD web application that lets you search, save and review the books they've read. 
 The application uses the Open Libary API to search for book titles then saves all of the data to a mySQL DB. 
 
-<img width="1173" alt="Screenshot 2023-09-30 at 8 22 28 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/be094fc8-dd51-4c93-9c25-5d8ca737a609">
+![Uploading Screenshot 2023-09-30 at 8.32.13 PM.png…]()
 
 SEARCH FOR A BOOK, WRITE A REVIEW AND RECORD A DATE:
 <img width="1366" alt="Screenshot 2023-09-30 at 8 15 36 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/bbb2014b-bf21-419e-a9dc-8f7141674638">
