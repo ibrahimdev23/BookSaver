@@ -5,7 +5,8 @@ The application uses the Open Libary API to search for book titles then saves al
 <img width="1168" alt="Screenshot 2023-09-30 at 8 32 13 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/499369d9-7be5-4470-80e7-04a54cdf8dcf">
 
 SEARCH FOR A BOOK, WRITE A REVIEW AND RECORD A DATE:
-<img width="1366" alt="Screenshot 2023-09-30 at 8 15 36 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/bbb2014b-bf21-419e-a9dc-8f7141674638">
+<img width="1167" alt="Screenshot 2023-09-30 at 8 35 05 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/38779a19-1265-48e1-907f-57750b8539fd">
+
 <img width="1346" alt="Screenshot 2023-09-30 at 8 16 05 PM" src="https://github.com/ibrahimdev23/BookSaver/assets/90659607/bdcf5d0a-5f7c-4592-8741-6a49c04b61ad">
 
 
